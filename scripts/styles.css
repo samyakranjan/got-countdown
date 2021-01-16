@@ -1,0 +1,43 @@
+@font-face {
+	font-family: Game of Thrones;
+	src: url('got-font.ttf');
+}
+
+h1 {
+	font-family: Game of Thrones
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg-image {
+  background-image: url("../images/bg2.jpg");
+
+  /* Blur effect */
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  /*
+  border: 3px solid #f1f1f1;
+   */
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 30px;
+  text-align: center;
+}
